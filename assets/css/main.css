@@ -268,8 +268,8 @@
 
 @media (max-width: 479px) {
 
-     #capacete-astronalta {
-          display: none;
+     #box-titulo-img {
+          flex-direction: column-reverse;
      }
 
      #div-quem-sou > p {
