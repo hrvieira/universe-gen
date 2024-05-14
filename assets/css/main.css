@@ -226,7 +226,7 @@
 
 @media (max-width: 720px) {
      #box-titulo-img {
-          flex-direction: column;
+          flex-direction: column-reverse;
           width: 100%;
      }
 
@@ -267,10 +267,6 @@
 }
 
 @media (max-width: 479px) {
-
-     #box-titulo-img {
-          flex-direction: column-reverse;
-     }
 
      #div-quem-sou > p {
           display: none;
