@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./assets/css/reset.css">
+     <link rel="stylesheet" href="./assets/css/style.css">
+     <link rel="stylesheet" href="./assets/css/header.css">
+     <link rel="stylesheet" href="./assets/css/main.css">
+     <link rel="stylesheet" href="./assets/css/footer.css">
+     <link rel="stylesheet" href="./assets/css/toogle.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <link rel="shortcut icon" href="./assets/img/svg/astronauta.svg" type="image/x-icon">
+     <title>Universe</title>
+</head>
+<body>
+     <header>
+          <div id="box-header">
+               <h1>Universe</h1>
+               <nav id="nav">
+                    <ul id="nav-header">
+                         <li><a href="#main">Home</a></li>
+                         <li><a href="#box-sobre">Sobre</a></li>
+                         <li><a href="#main-contate">Contate Me</a></li>
+                    </ul>
+                    <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                         <span id="hamburger"></span>
+                    </button>
+               </nav>
+          </div>
+     </header>
+
+     <main id="main">
+          <section id="box-titulo-img">
+               <article id="box-bem-vindo">
+                    <p id="bem-vindo-titulo">Bem Vindo a um Novo Universo</p>
+                    <h1 id="sub-titulo">Diferentes mundos para diferentes pessoas</h1>
+                    <p id="texto-bem-vindo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod error veniam in voluptatem magni quisquam</p>
+                    <a id="bt-explorer" href="">Explore</a>
+               </article>
+               <img src="./assets/img/svg/astronauta.svg" alt="Capacete de astronalta" id="capacete-astronalta">
+          </section>
+          <section id="box-sobre">   
+          </section>
+          <section id="box-contate">
+               <article id="main-contate">
+                    <h3 class="titulo-secundario">Me Contate</h3>
+                    <p id="texto-contate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi similique esse fuga necessitatibus, iusto alias eius perferendis qui iste minima blanditiis repellendus distinctio dolor obcaecati aliquid quod quidem incidunt quibusdam!</p>
+                    <div id="box-icone-contate">
+                         <div>
+                              <a href="https://www.linkedin.com/in/luizhrvieira/"><img src="./assets/img/svg/linkedin.svg" alt="ícone linkedin" class="contate-icone"></a>
+                              <a href="https://github.com/hrvieira"><img src="./assets/img/svg/github.svg" alt="ícone github" class="contate-icone"></a>
+                              <img src="./assets/img/svg/instagram.svg" alt="ícone instagram" class="contate-icone">
+                         </div>
+                    </div>
+               </article>
+               <form id="form-contate">
+                    <label>Nome:<br><input type="text" name="nome" id="nome" placeholder="Digite seu nome"></label>
+                    <label>Email: <br> <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com"></label>
+                    <label>Assunto: <br> <input type="text" name="assunto" placeholder="Projeto"></label>
+                    <label>Mensagem:
+                         <textarea id="mensagem" rows="3" name="mensagem" required="" placeholder="Descreva o assunto"></textarea></label>
+                    <input id="enviar" type="submit" value="Enviar">
+               </form>
+          </section>
+     </main>
+
+     <footer id="box-footer">
+          <p>
+               Feito com <img src="./assets/img/png/smyle.png" alt="smile"> por Henrique Vieira - 2024
+          </p>
+     </footer>
+     <script src="./assets/script/script.js"></script>
+</body>
+</html>

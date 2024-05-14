@@ -1,0 +1,8 @@
+*, header, main, footer {
+    font-family: "Poppins", sans-serif;
+    --roxo-escuro: #441f88;
+    --roxo-claro: #6c36cc;
+    --branco: rgb(249, 249, 249);
+    --cinza: #cccccc;
+    --preto: #171717;
+}

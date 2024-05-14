@@ -1,0 +1,34 @@
+
+header{
+     width: 100%;
+     background-color: var(--roxo-claro);
+     
+}
+
+#box-header {
+     width: 70%;
+     max-width: 900px;
+     height: 60px;
+     font-size: .8rem;
+     font-weight: bold;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 auto;
+     
+     color: var(--branco);
+}
+
+#nav-header {
+     display: flex;
+     justify-content: space-between;
+}
+
+#nav-header > li {
+     margin-left: 16px;
+}
+
+#nav-header > li > a {
+     text-decoration: none;
+     color: inherit;
+}
