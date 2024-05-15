@@ -1,3 +1,9 @@
+@import "/assets/css/reset.css";
+@import "/assets/css/header.css";
+@import "/assets/css/main.css";
+@import "/assets/css/footer.css";
+@import "/assets/css/toogle.css";
+
 *, header, main, footer {
     font-family: "Poppins", sans-serif;
     --roxo-escuro: #441f88;
