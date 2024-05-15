@@ -63,10 +63,10 @@
 }
 
 #box-sobre {
-     max-width: 900px;
+     max-width: 70%;
      display: flex;
      align-items: center;
-     margin: 15rem auto;
+     height: 60vw;
 }
 
 #busto {
