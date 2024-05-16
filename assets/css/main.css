@@ -7,7 +7,6 @@
 }
 
 #box-titulo-img {
-     width: 80%;
      padding-top: 10%;
      display: flex;
      align-items: center;
@@ -133,18 +132,16 @@
 }
 
 #box-contate {
-     width: 70%;
-     max-height: 500px;
-     margin: 0 auto 2rem;
+     width: 80%;
+     margin-bottom: 5%;
      display: flex;
-     justify-content: center;
+     justify-content: space-evenly;
      align-items: center;
-     
 }
 
 #main-contate {
-     width: 45%;
-     margin: 4rem 3rem 5rem 0;
+     width: 40%;
+     margin: 0;
 }
 
 #main-contate > h3 {
@@ -154,7 +151,7 @@
 
 #texto-contate {
      font-size: 1.1rem;
-     text-align: left;
+     text-align: justify;
      line-height: 1.5rem;
      padding-bottom: 1.5rem;
 }
@@ -175,7 +172,7 @@
 }
 
 #form-contate {
-     width: 45%;
+     width: 40%;
      display: flex;
      flex-direction: column;
      text-align: left;
@@ -228,16 +225,24 @@
      #box-titulo-img {
           flex-direction: column-reverse;
           width: 100%;
+          margin: 5% 0;
+          padding: 0;
      }
 
      #box-bem-vindo {
           width: 80%;
+          margin: 5% auto;
+     }
+
+     #box-quem-sou {
+          margin: 5% 0;
      }
 
      #box-sobre {
-          width: 80%;
+          width: 100%;
           flex-direction: column;
-          margin: 7rem;
+          height: auto;
+          margin: 5% 0;
      }
 
      #busto {
@@ -248,11 +253,13 @@
           width: 100%;
           max-height: max-content;
           flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          margin: 3rem 0;
      }
 
      #main-contate {
           width: 90%;
-          margin: 0 auto;
           text-align: center;
      }
 
@@ -262,13 +269,34 @@
 
      #form-contate {
           width: 80%;
-          padding: 2rem 0;
+          padding: 3rem 0 0;
      }
 }
 
 @media (max-width: 479px) {
+     #main {
+          justify-content: space-between;
+     }
+
+     #box-sobre {
+          max-width: 100%;
+          width: 100%;
+          margin-top: 10%;
+     }
+
+     #box-quem-sou {
+          width: 90%;
+     }
 
      #div-quem-sou > p {
           display: none;
+     }
+
+     #box-contate {
+          width: 100%;
+     }
+
+     #main-contate {
+          width: 90%;
      }
 }
